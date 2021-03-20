@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Personal data</b></legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" maxlength="30" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            <br><br>
+            <label for="phone">Phone number</label>
+            <input type="tel" name="tel" maxlength="20" pattern="[0-9]" required>
+        </fieldset>
+        <fieldset>
+            <legend><b>Location</b></legend>
+            <label for="city">City</label>
+            <input type="text" name="city" required>
+            <br><br>
+            <label for="street">Street</label>
+            <input type="text" name="street" required>
+            <br><br>
+            <label for="number">Street number</label>
+            <input type="number" name="number" required>
+        </fieldset>
+        <fieldset>
+            <legend><b>Event info</b></legend>
+            <label><p>Select your event from the following</p></label>
+            <select name="events">
+                <option value="birthday">Birthday</option>
+                <option value="wedding" selected="selected">Wedding</option>
+                <option value="company">Company</option>
+            </select>
+            <br><br>
+            <label for="number">Expected guests</label>
+            <input type="number" name="number" required min="100" max="500" placeholder="100-500">
+        </fieldset>
+    </form>
+</body>
+</html>
