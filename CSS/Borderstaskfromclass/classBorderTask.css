@@ -1,0 +1,62 @@
+.par1 {
+    width: 99%;
+    border: dotted black 10px;
+    margin: 0px 50px 0px 0px;
+}
+
+.par2 {
+    width: 99%;
+    border: dashed black 10px;
+}
+
+.par3 {
+    width: 99%;
+    border: solid black 10px;
+}
+
+.par4 {
+    width: 99%;
+    border: double black 10px;
+}
+
+.par5 {
+    width: 99%;
+    border: groove gray 10px;
+    border-color: lightgray;
+}
+
+.par6 {
+    width: 99%;
+    border: ridge gray 10px;
+    border-color: lightgray;
+}
+
+.par7 {
+    width: 99%;
+    border: inset gray 10px;
+    border-color: lightgray;
+}
+
+.par8 {
+    width: 99%;
+    border: outset gray 10px;
+    border-color: lightgray;
+}
+
+.par9 {
+    width: 99%;
+    border: none;
+}
+
+.par10 {
+    width: 99%;
+    border: hidden;
+}
+
+.par11 {
+    width: 99%;
+    border-top: dotted 10px;
+    border-left: double 10px;
+    border-bottom: solid 10px;
+    border-right: solid 10px ;
+}

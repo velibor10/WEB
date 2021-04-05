@@ -1,0 +1,9 @@
+.firstParagraph {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+.secondParagraph {
+    text-transform: lowercase;
+    text-decoration-line: line-through;
+}

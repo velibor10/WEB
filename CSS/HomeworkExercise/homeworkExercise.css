@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif, 'Times New Roman', Times;
+    color: navy;
+    background-color: #eee;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 26pt;
+    font-variant: small-caps;
+    text-align: right;
+    background-color: navy;
+    color: #ccf;
+    padding: 4px 10px;
+    margin-top: 0px;
+    border-top: solid 8px #88c;
+    border-bottom: solid 8px #88c;
+}
+
+p {
+    width: 80%;
+    margin-top: 0px;
+    font-size: 16px;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border-style: solid;
+    border-color: rgba(136,136,204,0.2);
+    border-width: 0px 0px 0px 10px;
+    padding-left: 10px;
+}
+
+aside {
+    width: 30%;
+    margin: 0px 5px 0px auto;
+    text-align: left;
+    padding: 16px;
+    font-size: 80%;
+    border: solid red;
+    border-width: 2px 4px 4px 2px;
+    background-color: lightyellow;
+    color: red;
+}
+
+h3 {
+    border-bottom: 5px dotted #88d ;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: solid black 4px;
+    background-color: #fde;
+    border-collapse: collapse;
+}
+
+th {
+    border-left: 1px #a88 solid;
+    border-bottom: black solid 2px ;
+    padding: 3px 9px;
+    background-color: rgb(56, 54, 88);
+    color: ivory;
+}
+
+td {
+    border-left:  1px #a88 solid;
+    border-bottom: black solid 2px;
+    padding: 3px 9px;
+}
+
+div {
+    text-align: center;
+    font-weight: bold;
+    margin: 16px auto;
+    border: double darkgreen 15px;
+    padding: 10px;
+    width: 400px;
+    color: darkgreen;
+    background-color: rgba(124, 221, 50, 0.3);
+}
+
+ul {
+    width: 70%;
+    margin: 16px auto;
+    font-family: serif, 'Times New Roman', Times;
+    font-style: italic;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}

@@ -1,0 +1,22 @@
+p {
+    background-color: blueviolet;
+}
+
+.firstParagraph {
+    padding: 50px;
+    width: 300px;
+    margin: 50px;
+}
+
+.secondParagraph {
+    padding-top: 50px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.thirdParagraph {
+    padding: 50px;
+    width: 200px;
+    margin-left: 100px;
+}

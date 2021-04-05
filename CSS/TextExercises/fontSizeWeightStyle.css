@@ -1,0 +1,18 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.firstParagraph {
+    font-family: monospace;
+}
+
+.secondParagraph {
+    font-style: oblique;
+}
+
+.spanOne {
+    font-weight: bold;
+    font-style: italic;
+}

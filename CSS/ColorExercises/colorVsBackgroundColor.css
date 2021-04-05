@@ -1,0 +1,14 @@
+.normalColor {
+    color: red;
+    background-color: blue;
+}
+
+.rgbColor { 
+    color: rgb(0, 20, 109);
+    background-color: white;
+}
+
+.hexColor {
+    color:white;
+    background-color: darkred;
+}

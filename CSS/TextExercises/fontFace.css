@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Train One', cursive;
+    src:url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+}
+
+@font-face {
+    font-family: "Anton-Regular";
+    src:url(Anton-Regular.ttf)
+}
+
+h1 {
+    font-family: "Anton-Regular";
+}
+
+.firstParagraph {
+    font-family: 'Train One', cursive;
+}

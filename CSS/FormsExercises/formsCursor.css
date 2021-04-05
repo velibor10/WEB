@@ -1,0 +1,85 @@
+.page {
+    width: 1000px;
+    height: 100vh;
+    padding: 0;
+    margin: 0px auto;
+}
+
+.loginBorder {
+    width: 420px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 150px auto auto auto;
+}
+
+.loginform {
+    width: 87%;
+    height: 88%;
+    margin: 30px auto auto auto;
+    border-radius: 25px 0px 25px 0px;
+    background-color: rgb(245, 245, 245);
+    padding: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(45, 50, 79);
+    margin-bottom: 12px;
+}
+
+h1 span {
+    color: rgb(255, 180, 50);
+}
+
+hr {
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 50, 79);
+    font-size: 22px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 50, 79);
+    width: 76%;
+    font-size: 18px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(45, 50, 79, 0.8);
+    border: 1px solid rgba(45, 50, 79, 0.4);
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(200, 25, 25);
+    color: white;
+    width: 80%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 0px 0px;
+    border-color:  rgb(200, 25, 25);
+    font-size: 14px;
+    padding: 8px 0px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.button:hover {
+    cursor: url("Bullets.png"),auto;
+}

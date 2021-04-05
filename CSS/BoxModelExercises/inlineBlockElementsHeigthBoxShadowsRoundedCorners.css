@@ -1,0 +1,57 @@
+.firstParagraph {
+    background-color: yellow;
+    width: 400px;
+    height: 500px;
+    overflow-x: scroll;
+    max-width: 300px;;
+    overflow: hidden;
+    border: red dashed;
+    padding: 0px;
+    width: 300px;
+    margin: 0px 20px 0px 0px;
+    display: inline-block;
+}
+
+.secondParagraph {
+    background-color: red;
+    width: 600px;
+    height: 300px;
+    max-height: 200px;
+    border :green solid;
+    overflow: scroll;
+    padding: 0px;
+    width: 400px;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+    display: none;
+}
+
+.thirdParagraph {
+    border: red dashed ;
+    padding: 0px;
+    width: 200px;
+    margin:0px 20px 0px 0px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+h1 {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto ;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
+    background-color: darkcyan;
+    color: lavender;
+    font-family: "DancingScript";
+    -webkit-box-shadow: 32px -9px 15px 16px #2EFFAA; 
+    box-shadow: 32px -9px 15px 16px #2EFFAA;
+    border: 5px outset #1C6EA4;
+    border-radius: 40px 0px 40px 0px;
+}
+
+@font-face {
+    font-family: "DancingScript";
+    src: url(DancingScript.ttf);
+}

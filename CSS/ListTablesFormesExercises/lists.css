@@ -1,0 +1,29 @@
+.list1 {
+    list-style: circle;
+}
+
+.list2 {
+    list-style: square;
+}
+
+.list3 {
+    list-style: upper-alpha;
+}
+
+.list4 {
+    list-style: upper-roman;
+}
+.list5 {
+    width: 200px;
+    list-style-image: url("resized-image-bullets.jpeg"); 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list6 {
+    width: 200px;
+    list-style-image: url("resized-image-Promo\ owl.jpeg");
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+}

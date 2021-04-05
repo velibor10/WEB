@@ -1,0 +1,40 @@
+table {
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    margin: auto;
+    background-color: tomato;
+    color: ivory;
+    border-collapse: collapse;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img {
+    height: 100px;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+div {
+    padding: 10px;
+    border: solid black 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+tr:hover {
+    background-color: rgb(235, 220, 16);
+}

@@ -1,0 +1,22 @@
+a {
+    color: red;
+    text-shadow: 2px 2px 2px rgba(94, 5, 97, 0.3);
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+a:link {
+    color: red;
+}
+    
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: blue;
+}

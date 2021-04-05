@@ -1,0 +1,10 @@
+.normalColor {
+    color: darkturquoise;
+}
+
+.rgbColor { color: rgb(0, 206, 209);
+}
+
+.hexColor {
+    color: #00ced1;
+}
