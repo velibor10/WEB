@@ -1,0 +1,37 @@
+.img1 {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 150px;
+    height: 300px;
+}
+
+.img2 {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    height: 300px;
+    width: 300px;
+}
+
+.img3 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+a {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-decoration: none;
+    color: red;
+}
+
+body {
+    position: relative;
+}

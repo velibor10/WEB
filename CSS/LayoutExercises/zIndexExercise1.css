@@ -1,0 +1,30 @@
+.div1 {
+    border: solid 1px red;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    z-index: 1;
+    position: relative;
+}
+
+.div2 {
+    border: solid 1px yellow;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    z-index: 2;
+    top: -100px;
+    left: 100px;
+    position: relative;
+}
+
+.div3 {
+    border: solid 1px indigo;
+    height: 200px;
+    width: 200px;
+    background-color: indigo;
+    z-index: 3;
+    top: -200px;
+    left: 200px;
+    position: relative;
+}

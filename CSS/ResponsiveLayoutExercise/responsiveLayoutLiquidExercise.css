@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 95%;
+    padding: 0px;
+    margin: 0px auto;
+    height: 30%;
+}
+
+.logo {
+    background-image: url(./Logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    float: left;
+    height: 30%;
+    width: 50%;
+}
+
+.mainTittle {
+    height: 175px;
+    width: 785px;
+    display: block;
+    float: left;
+}
+
+.mainTittle h1 {
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.mainTittle p {
+    margin-top: -30px;
+    padding-left: 5px;
+}
+
+main {
+    width: 960px;
+    height: 595px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.left {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 450px;
+    border-right: 2px solid black;
+    padding-right: 15px;
+}
+
+.right {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 493px;
+}
+
+.left h2 {
+    font-weight: normal;
+    padding-left: 10px;
+    font-size: 28px;
+}
+
+.right h2 {
+    font-weight: normal;
+    padding-left: 30px;
+    font-size: 28px;
+}
+
+.right p {
+    padding-left: 20px;
+}

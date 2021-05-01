@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Vezba 5</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+  <h1>Glavni naslov</h1>
+
+  <section>
+  <p>
+  Kreirati zaseban CSS fajl pod nazivom "stil.css", i povezati ga sa HTML stranicom.
+  </p>
+
+  <p>
+  Cela strana treba da ima font sans-serif, boja slova je #444, a boja pozadine #eee.
+  </p>
+
+  <p>
+  Glavni naslov treba da bude veličine 28pt, boje teksta #66c. Tekst naslova centrirati. 
+  Donji okvir treba da bude debljine 2px, boje #66c, puna linija.
+  </p>
+
+  <p>
+  Blok SECTION treba da bude širine 70% i centriran kao blok.
+  Boja pozadine je #edc.
+  </p>
+
+  <div>
+  Svi DIV blokovi u tekstu treba da imaju ukupnu širinu 300px, unutrašnju marginu 20px,
+  i okvir debljine 5px, pune linije, boje #666.
+  Boja pozadine treba da bude #ddd. Veličina teksta 9pt. 
+  Tekst poravnati po obe margine.
+  </div>
+  <div class="pomeren">
+  Za ovaj blok napraviti stil klase "pomeren". 
+  Boja pozadine treba da bude rgba(255,250,210,0.8).
+  Blok treba da bude izmešten u odnosu na svoju poziciju 30 piksela naniže i 70 piksela udesno.
+  </div>
+  <div>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex arcu, porta et aliquet ac, pellentesque sollicitudin leo.
+  </div>
+  
+  <p>
+  Sada ćemo pokušati da izvedemo apsolutno pozicioniranje DIV bloka.
+  </p>
+
+  <div>
+    <b>A</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex arcu, porta et aliquet ac, pellentesque sollicitudin leo.
+  </div>
+  <div class="spec">
+  <b>B</b> Za ovaj blok napraviti stil klase "spec". 
+  Boja pozadine treba da bude rgba(230,200,255,0.8).
+  Blok treba da bude pozicioniran u odnosu na sekciju i to naviše 10px i ulevo 100px.
+  </div>
+  <div>
+    <b>C</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex arcu, porta et aliquet ac, pellentesque sollicitudin leo.
+  </div>
+
+  <p>
+  Napravite tabelu kao na slici.
+  Tabela treba da bude postavljena na sredini, bez podešavanja širine.
+  Okvir oko cele tabele treba da bude debljine 2px, crne boje, puna linija.
+  Isključiti razmak među ćelijama.
+  Ćelije treba da imaju okvir od 1px, crne boje, puna linija. Unutrašnja margina
+  po vertikali treba da bude 5px, a po horizontali 10px. Sadržaj ćelija treba da
+  bude centriran po horizontali i vertikali. Font treba da bude podebljan.
+  </p>
+
+  <table>
+
+    <tr>
+
+        <td class="cel" rowspan="4">A</td>
+
+        <td>B</td>
+
+        <td class="cel" colspan="2">C</td>
+
+    </tr>
+
+    <tr>
+
+        <td colspan="3">D</td>
+
+    </tr>
+
+    <tr>
+
+        <td colspan="2">E</td>
+
+        <td rowspan="2">F</td>
+
+    </tr>
+
+    <tr>
+
+        <td>G</td>
+
+        <td class="cel">H</td>
+
+    </tr>
+
+
+  </table>
+
+  <p>
+  Pojedine ćelije treba da imaju boju pozadine #ffc i crvenu boju teksta.
+  Za ovo je potrebno napraviti stil klase "cel" i primeniti ga na ćelije.
+  Kada se miš dovede iznad ovih ćelija, treba da promene boju pozadine u #fcc.
+  </p>
+  
+  <div id="float">
+  Ovaj DIV blok identifikujte kao "float". Napravite ID stil za blok koji treba 
+  da bude fiksno pozicioniran u odnosu na gornji desni ugao prozora, 
+  i to po 20px naniže i ulevo.
+  Ukupne dimenzije bloka treba da budu 170px (širina i visina), boja pozadine bela, font 7pt.
+  </div>
+
+  <p>
+  Napravite numerisanu (uređenu) listu sa neuređenim podstavkama. 
+  Glavna lista treba da ima unutrašnju marginu od 2em. i okvir debljine
+  2px, sive boje, tačkaste linije.
+  
+  Stavke treba da imaju boju pozadine #def, unutrašnju marginu od 0.5em i 
+  okvir debljine 1px, pune linije, boje #25c.
+  
+  Svakoj podstavki dodeliti klasu "pod" za koju je napravljen stil:
+  boja pozadine #efc, unutrašnja margina 0px, boja okvira zelena.
+  </p>
+
+  <ol>
+
+  <li>Ovo je prva stavka i ona treba da izgleda sasvim obično</li>
+
+  <li>Ovo je druga stavka i ona treba da sadrži ovaj tekst i podlistu</li>
+
+        <ul>
+
+            <li class="pod">Prva stavka u podlisti</li>
+
+            <li class="pod">Druga stavka u podlisti</li>
+
+            <li class="pod">Treća stavka u podlisti</li>
+
+        </ul>
+  
+  <li>Konačno evo i treće glavne stavke</li>
+
+  </ol>
+
+  <p>
+  <b>Čestitamo, stigli ste se do kraja zadatka!</b>
+  </p>
+  
+  </section>
+  
+</body>
+</html>

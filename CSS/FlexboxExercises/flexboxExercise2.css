@@ -1,0 +1,94 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 800px;
+    margin: auto;
+    width: 800px;
+    align-items: center;
+}
+
+.one {
+    width: 200px;
+    height: 200px;
+    background-color:wheat;
+    order: 1;
+    color: white;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    margin-top: 175px;
+}
+
+.two {
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    order: 4;
+    color: white;
+    width: 30%;
+    margin-bottom: 175px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.three {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(29, 16, 16);
+    order: 2;
+    color: white;
+    width: 30%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 175px;
+}
+
+.four {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    order: 5;
+    color: white;
+    width: 30%;
+    margin-bottom: 175px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.five {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    order: 3;
+    color: white;
+    width: 30%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 175px;
+}
+
+.six {
+    width: 200px;
+    height: 200px;
+    background-color:lightsalmon;
+    order: 6;
+    color: white;
+    width: 30%;
+    margin-bottom: 175px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

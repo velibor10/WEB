@@ -1,0 +1,9 @@
+body {
+    background-image: url(./bridge.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
