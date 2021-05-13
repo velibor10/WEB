@@ -1,0 +1,687 @@
+@font-face {
+    font-family: Awsome;
+    src: url(../Fonts/fontawesome-webfont.ttf);
+}
+
+@font-face {
+    font-family: Roboto-black;
+    src: url(../Fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-black-italic;
+    src: url(../Fonts/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-bold-italic;
+    src: url(../Fonts/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-italic;
+    src: url(../Fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url(../Fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-light-italic;
+    src: url(../Fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-medium;
+    src: url(../Fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-medium-italic;
+    src: url(../Fonts/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-regular;
+    src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-thin;
+    src: url(../Fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: Roboto-thin-italic;
+    src: url(../Fonts/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: glyphicons-regular;
+    src: url(../Fonts/glyphicons-halflings-regular.ttf);
+}
+
+body {
+    padding: 0px;
+    margin: 0px auto;
+    font-family: Awsome;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-image: url(../Images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 20%;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    min-width: 110px;
+    font-size: 28px;
+    color: rgb(235, 159, 19);
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid rgb(247, 243, 243);
+    border-top: 5px solid rgb(247, 243, 243);
+    border-bottom: 5px solid rgb(247, 243, 243);
+    font-family: Roboto-bold;
+}
+
+.right {
+    min-width: 130px;
+    font-size: 28px;
+    color: rgb(247, 243, 243);
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-bold;
+}
+
+.navbar {
+    width: 60%;
+    height: 45px;
+    margin-top: 20px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.links {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(247, 243, 243);
+    text-decoration: none;
+    font-family: Roboto-black;
+}
+
+.main {
+    display: inline-block;
+    width: 80%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
+    color:rgb(247, 243, 243);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 80px 0px;
+    padding: 25px 0 px 0px 0px;
+    font-family: Awsome;
+}
+
+.main button {
+    width: 120px;
+    height: 35px;
+    background-color: rgb(23, 103, 184);
+    text-align: center;
+    color: rgb(247, 243, 243);
+    border: 0px;
+    border-radius: 17px;
+    font-family: Roboto-regular;
+}
+
+.whoweare {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Awsome;
+}
+
+.icon1 {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv {
+    width: 80%;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.subdiv1 {
+    width: 37.5%;
+    padding-right: 50px;
+}
+
+.subdiv2 {
+    width: 25%;
+}
+
+.subdiv2 img {
+    width: 100%;
+}
+
+.subdiv3 {
+    width: 37.5%;
+    padding-left: 50px;
+}
+
+.heading1 {
+    color:rgb(51, 125, 199);
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.paragraph1 {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    line-height: 200%;
+    text-align: center;
+}
+
+.maindiv ul {
+    color: gray;
+    font-size: 14px;
+    width: 250px;
+    margin: 0px auto;
+    line-height: 200%;
+    list-style-image: url(../Images/Arrow.png);
+}
+
+.whatpeoplesays {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.break1 {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-regular;
+}
+
+.main1 {
+    width: 80%;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    font-family: Roboto-medium;
+}
+
+.comment {
+    background-color: rgb(131, 193, 255);
+    width: 28.5%;
+    height: 300px;
+    padding: 20px;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.up p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.up img {
+    width: 80px;
+    border-radius: 40px;
+    border: 3px solid white;
+}
+
+.bot p {
+    color: white;
+    line-height: 250%;
+}
+
+.getintouchwithus{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main2 {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-regular;
+}
+
+.first {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.about {
+    width: 25%;
+    height: 160px;
+    padding: 20px;
+}
+
+.style1 {
+    background-color: #3add9a;
+}
+
+.style2 {
+    background-color: #fc5282;
+    display: flex;
+    flex-direction: column;
+}
+
+.style3 {
+    background-color: #376ce4;
+}
+
+.style4{
+    background-color: #81c3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutheading {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: glyphicons-regular;
+}
+
+.aboutparagraph {
+    color: white;
+    text-align: center;
+}
+
+.about img {
+    width: 40%;
+}
+
+.media {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mediaicon {
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.media img {
+    width: 25px;
+}
+
+.map {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+.mail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main3 {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-regular;
+}
+
+form {
+    width: 60%;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    width: 30%;
+    height: 60px;
+    border: 2px solid rgb(112, 111, 111);
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+
+textarea {
+    margin-top: 20px;
+    height: 300px;
+    border: 2px solid rgb(112, 111, 111);
+    padding-left: 10px;
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+
+input::placeholder {
+    font-size: 22px;
+    color: rgb(112, 111, 111);
+}
+
+textarea::placeholder {
+    font-size: 22px;
+    color: rgb(112, 111, 111);
+}
+
+form button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(245, 144, 35);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 150px;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto-medium;
+}
+
+footer p {
+    color: white;
+}
+
+@media screen and (max-width:1200px) {
+
+    header {
+        height: 60%;
+    }
+
+    .main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .main h1 {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .icon1 {
+        margin-top: 20px;
+    }
+
+    .maindiv {
+        flex-wrap: wrap;
+    }
+
+    .subdiv1 {
+        width: 45%;
+        padding-right: 20px;
+    }
+
+    .subdiv2 {
+        width: 50%;
+    }
+
+    .subdiv2 img {
+        width: 100%;
+    }
+
+    .subdiv3 {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+
+    .heading1 {
+        text-align: left;
+    }
+
+    .paragraph1{
+        text-align: left;
+    }
+    .maindiv ul{
+        margin-left: 0px;
+        width: 90%;
+    }
+    
+    .break1 {
+        margin-top: 20px;
+    }
+
+    .main1 {
+        flex-wrap: wrap;
+    }
+    
+    .comment {
+        width: 43%;
+        height: 350px;
+    }
+
+    .tabletMargin {
+        margin-top: 4%;
+    }
+    /* Page 4*/
+    .main2 {
+        margin-top: 20px;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .about {
+        width: 44%;
+        height: 160px;
+        padding: 3%;
+    }
+    /* Page 5*/
+
+    form {
+        width: 70%;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    header {
+        background-position: center;
+    }
+
+    .logo {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 245px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .left{
+        display: inline-block;
+        border-left: 5px solid gray;
+        border-top: 5px solid gray;
+        border-bottom: 5px solid gray;
+    }
+
+    .right {
+        display: inline-block;
+        color: gray;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 275px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+
+    .links {
+        width: 100%;
+        height: 35px;
+        background-color: rgb(131, 193, 255);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .main h1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .main button {
+        width: 110px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    
+    .whoweare{
+        margin-top: 260px;
+    }
+    .subdiv1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .subdiv2 {
+        width: 100%;
+    }
+
+    .subdiv3 {
+        width: 100%;
+    }
+
+    .comment {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .tabletMargin {
+        margin-top: 0px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    iframe {
+        height: 300px;
+    }
+
+    .main3 {
+        margin-top: 30px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .inputs {
+        flex-direction: column;
+    }
+
+    input {
+        width: 96%;
+        margin-bottom: 15px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
