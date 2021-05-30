@@ -1,0 +1,22 @@
+.header {
+    background-color: $blueish;
+}
+
+.navigationBox {
+    .logo {
+        font-family: "Lato-regular";
+    }
+
+    button {
+        background-color: $greenButton;
+        border: 0px;
+    }
+
+    .linksBox {
+        justify-content: flex-end;
+
+        a {
+            font-family: "Lato-regular";
+        }
+    }
+}

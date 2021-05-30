@@ -1,0 +1,28 @@
+.paragraphs {
+    border: solid 3px black;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    background-color: turquoise;
+}
+
+.p1 {
+    @extend .paragraphs;
+    border: dashed 3px red;
+    color: red;
+    width: 50% + 30%;
+}
+
+.p2 {
+    @extend .paragraphs;
+    border: dotted blue 5px;
+    color: blue;
+    width: 400px - 100px;
+}
+
+.p3 {
+    @extend .paragraphs;
+    border: double green 7px;
+    color: green;
+    width: 1000px / 2.5px * 1px;
+}

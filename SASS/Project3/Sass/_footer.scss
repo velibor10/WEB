@@ -1,0 +1,17 @@
+footer {
+    background-color: $blueish;
+    color: $white;
+    text-align: center;
+    h2 {
+        font-family: "Lato-bold";
+    }
+
+    p {
+        font-family: "Lato-regular";
+        font-weight: bold;
+    }
+    
+    .icon {
+        font-size: 35px;
+    }
+}

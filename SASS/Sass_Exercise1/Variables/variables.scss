@@ -1,0 +1,47 @@
+@import 'mixins';
+
+@import 'variables';
+
+body {
+    width: $width;
+    font-family: $family;
+}
+
+h1 {
+    color: $color;
+    width: $width;
+    @include textShadow();
+}
+
+img {
+    width: $width;
+    height: $heigth;
+}
+
+table {
+    width: $width;
+    background-color: $color;
+}
+
+p {
+    width: $width;
+    color: $color;
+    background-color: $color1;
+    @include boxShadow();
+}
+
+table {
+    tr {
+        height: 100px;
+        width: 300px;
+    }
+
+    td {
+        color: $color1;
+        background-color: violet;
+    }
+}
+
+h2 {
+    @include boxShadow();
+}

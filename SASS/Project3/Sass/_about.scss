@@ -1,0 +1,29 @@
+.about {
+    text-align: center;
+    background-color: $greenish;
+    color: $white;
+
+    h2 {
+        font-family: "Lato-bold";
+    }
+
+    i {
+        font-size: 25px;
+    }
+
+    p {
+        font-family: "Lato-regular";
+    }
+
+    button {
+        background-color: transparent;
+        border: 1px solid $white;
+        border-radius: 5px;
+        color: $white;
+        font-family: "Lato-regular";
+    }
+
+    i {
+        font-size: 16px;
+    }
+}

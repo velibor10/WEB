@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Lato-black";
+  src: url(../Fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: "Lato-black-italic";
+  src: url(../Fonts/Lato-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-bold";
+  src: url(../Fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Lato-bold-italic";
+  src: url(../Fonts/Lato-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-hairline";
+  src: url(../Fonts/Lato-Hairline.ttf);
+}
+
+@font-face {
+  font-family: "Lato-hairline-italic";
+  src: url(../Fonts/Lato-HairlineItalic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-italic";
+  src: url(../Fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-light";
+  src: url(../Fonts/Lato-Light.ttf);
+}
+
+@font-face {
+  font-family: "Lato-light-italic";
+  src: url(../Fonts/Lato-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "Lato-regular";
+  src: url(../Fonts/Lato-Regular.ttf);
+}
+
+.header {
+  background-color: #2c3e50;
+}
+
+.navigationBox .logo {
+  font-family: "Lato-regular";
+}
+
+.navigationBox button {
+  background-color: #18bc9c;
+  border: 0px;
+}
+
+.navigationBox .linksBox {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navigationBox .linksBox a {
+  font-family: "Lato-regular";
+}
+
+.main {
+  background-color: #18bc9c;
+  color: #ffffff;
+}
+
+.main h1 {
+  font-family: "Lato-bold";
+}
+
+.main p {
+  font-family: "Lato-regular";
+}
+
+.main i {
+  font-size: 25px;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.portfolio h2 {
+  font-family: "Lato-bold";
+}
+
+.portfolio i {
+  font-size: 25px;
+}
+
+.about {
+  text-align: center;
+  background-color: #18bc9c;
+  color: #ffffff;
+}
+
+.about h2 {
+  font-family: "Lato-bold";
+}
+
+.about i {
+  font-size: 25px;
+}
+
+.about p {
+  font-family: "Lato-regular";
+}
+
+.about button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Lato-regular";
+}
+
+.about i {
+  font-size: 16px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-family: "Lato-bold";
+}
+
+.contact i {
+  font-size: 25px;
+}
+
+.btn1 {
+  text-align: left;
+}
+
+.btn1 .btn {
+  background-color: #18bc9c;
+  border: 0px;
+  color: #ffffff;
+  font-family: "Lato-regular";
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer h2 {
+  font-family: "Lato-bold";
+}
+
+footer p {
+  font-family: "Lato-regular";
+  font-weight: bold;
+}
+
+footer .icon {
+  font-size: 35px;
+}
+/*# sourceMappingURL=index.css.map */

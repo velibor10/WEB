@@ -1,0 +1,22 @@
+.contact {
+    text-align: center;
+
+    h2 {
+        font-family: "Lato-bold";
+    }
+
+    i {
+        font-size: 25px;
+    }
+}
+
+.btn1 {
+    text-align: left;
+    
+    .btn {
+    background-color: $greenish;
+    border: 0px;
+    color: $white;
+    font-family: "Lato-regular";
+    }
+}

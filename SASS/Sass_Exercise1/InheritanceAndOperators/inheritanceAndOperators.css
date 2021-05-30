@@ -1,0 +1,26 @@
+.paragraphs, .p1, .p2, .p3 {
+  border: solid 3px black;
+  padding: 5px;
+  margin: 5px;
+  color: black;
+  background-color: turquoise;
+}
+
+.p1 {
+  border: dashed 3px red;
+  color: red;
+  width: 80%;
+}
+
+.p2 {
+  border: dotted blue 5px;
+  color: blue;
+  width: 300px;
+}
+
+.p3 {
+  border: double green 7px;
+  color: green;
+  width: 400px;
+}
+/*# sourceMappingURL=inheritanceAndOperators.css.map */
