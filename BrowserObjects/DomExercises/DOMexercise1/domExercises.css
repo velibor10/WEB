@@ -1,0 +1,27 @@
+#list1 {
+    background-color: black;
+}
+
+#list2 {
+    background-color: darkviolet;
+}
+
+.item1 {
+    background-color: deepskyblue;
+}
+
+.item2 {
+    background-color: violet;
+}
+
+.item3 {
+    background-color: yellow;
+}
+
+#list3 {
+    background-color: turquoise;
+}
+
+.active {
+    background-color: green;
+}
