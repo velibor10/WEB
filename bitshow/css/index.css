@@ -1,0 +1,276 @@
+/*Header*/
+header {
+  background-color: #343a40;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header .logo {
+  color: white;
+  font-size: 30px;
+}
+
+header .searchInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .movieInput {
+  width: 220px;
+  height: 35px;
+  border: 1px solid #343a40;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+  color: #343a40;
+}
+
+header .movieInput:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  header .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .searchInput {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .movieInput {
+    text-align: center;
+    padding: 0px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/*Card section*/
+.movieSection {
+  min-height: 100vh;
+}
+
+.movieSection .movieRow {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.movieSection .cardBorder {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.movieSection .cardelements {
+  width: 95%;
+  height: 428px;
+  margin: 0px auto;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.movieSection .pictures {
+  width: 100%;
+  height: 84%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.movieSection .title {
+  width: 100%;
+  height: 16%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.movieSection .title p {
+  width: 90%;
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 15px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 4000px) {
+  .movieSection .cardelements {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .movieSection .cardelements {
+    width: 90%;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .movieSection .cardelements {
+    width: 100%;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .movieSection .cardelements {
+    width: 100%;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .movieSection .cardelements {
+    width: 90%;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .movieSection .cardelements {
+    width: 230px;
+    height: 360px;
+  }
+}
+
+/*Footer*/
+footer {
+  height: 70px;
+  background-color: #343a40;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p {
+  color: white;
+  margin: 0px;
+}
+
+/*Movie info*/
+.movieInfoRow h4 {
+  font-size: 18px;
+}
+
+.movieInfoRow p {
+  font-size: 14px;
+}
+
+.infoPicture {
+  padding: 0px;
+}
+
+.infoPicture img {
+  width: 100%;
+}
+
+.descriptionRow h4 {
+  font-size: 18px;
+}
+
+.descriptionRow p {
+  font-size: 14px;
+  padding: 0px;
+  text-align: justify;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .movieInfoRow {
+    padding: 0px;
+    margin: 0px;
+  }
+  .infoPicture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .infoPicture img {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .seasons {
+    padding-left: 10px !important;
+    margin-top: 20px !important;
+  }
+  .cast {
+    padding-left: 10px !important;
+  }
+  .crew {
+    padding-left: 10px !important;
+  }
+  .descriptionRow {
+    padding: 20px;
+    margin: 0px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .movieInfoRow {
+    padding: 0px;
+    margin: 0px;
+  }
+  .infoPicture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .infoPicture img {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .seasons {
+    padding-left: 40px !important;
+    margin-top: 20px !important;
+  }
+  .cast {
+    padding-left: 40px !important;
+  }
+  .crew {
+    padding-left: 40px !important;
+  }
+  .descriptionRow {
+    padding-left: 50px;
+    margin: 0px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

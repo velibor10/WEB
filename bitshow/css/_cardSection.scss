@@ -1,0 +1,99 @@
+/*Card section*/
+.movieSection {
+    min-height: 100vh;
+    .movieRow {
+        flex-direction: row;
+    }
+    .cardBorder {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .cardelements {
+        width: 95%;
+        height: 428px;
+        margin: 0px auto;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+    }
+    .pictures {
+        width: 100%;
+        height: 84%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .title {
+        width: 100%;
+        height: 16%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //border: 1px solid lightgrey;
+        p {
+            width: 90%;
+            margin: 0px;
+            padding: 10px 0px;
+            text-align: center;
+            word-wrap: break-word;
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(52, 58, 64);
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 4000px) {
+    .movieSection {
+        .cardelements {
+            width: 100%;
+            height: 350px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .movieSection {
+        .cardelements {
+            width: 90%;
+            height: 400px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .movieSection {
+        .cardelements {
+            width: 100%;
+            height: 360px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .movieSection {
+        .cardelements {
+            width: 100%;
+            height: 360px;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .movieSection {
+        .cardelements {
+            width: 90%;
+            height: 360px;
+        }
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .movieSection {
+        .cardelements {
+            width: 230px;
+            height: 360px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+/*Movie info*/
+.movieInfoRow{
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
+.infoPicture {
+    padding: 0px;
+    img {
+        width: 100%;
+    }
+}
+
+.descriptionRow{
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+        padding: 0px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .movieInfoRow{
+        padding: 0px;
+        margin: 0px;
+    }
+    .infoPicture {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 90%;
+            margin: 0px auto;
+        }
+    }
+    .seasons{
+        padding-left: 10px !important;
+        margin-top: 20px !important;
+    }
+    .cast{
+        padding-left: 10px !important;
+    }
+    .crew{
+        padding-left: 10px !important;
+    }
+
+    .descriptionRow{
+        padding: 20px;
+        margin: 0px; 
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .movieInfoRow{
+        padding: 0px;
+        margin: 0px;
+    }
+    .infoPicture {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 80%;
+            margin: 0px auto;
+        }
+    }
+    .seasons{
+        padding-left: 40px !important;
+        margin-top: 20px !important;
+    }
+    .cast{
+        padding-left: 40px !important;
+    }
+    .crew{
+        padding-left: 40px !important;
+    }
+
+    .descriptionRow{
+        padding-left: 50px;
+        margin: 0px; 
+    }
+}

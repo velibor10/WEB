@@ -1,0 +1,51 @@
+/*Header*/
+header {
+    background-color: rgb(52, 58, 64);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .logo {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+    }
+
+    .searchInput {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .movieInput {
+        width: 220px;
+        height: 35px;
+        border: 1px solid rgb(52, 58, 64);
+        border-radius: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+        color: rgb(52, 58, 64);
+    }
+    .movieInput:focus {
+        outline: none;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    header {
+        .logo {
+            display: flex;
+            justify-content: center;
+        }
+
+        .searchInput {
+            justify-content: center;
+        }
+
+        .movieInput {
+            text-align: center;
+            padding: 0px;
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
